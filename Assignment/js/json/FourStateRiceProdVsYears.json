@@ -1,0 +1,61 @@
+{
+	"grainName" : "Rice",
+	"stateProdData" : [
+		{ "state" : "Andhra Pradesh",
+			"Data" : [ { "year" : 2003, "value" : 0},
+				{ "year" : 2004, "value" : 8953},
+				{ "year" : 2005, "value" : 9601},
+				{ "year" : 2006, "value" : 11704},
+				{ "year" : 2007, "value" : 11872},
+				{ "year" : 2008, "value" : 13324},
+				{ "year" : 2009, "value" : 14241},
+				{ "year" : 2010, "value" : 10538},
+				{ "year" : 2011, "value" : 14418},
+				{ "year" : 2012, "value" : 12900},
+				{ "year" : 2013, "value" : 10910}
+			]
+		},
+		{"state" : "Karnataka",
+			"Data" : [ { "year" : 2003, "value" : 0},
+				{ "year" : 2004, "value" : 2550.3},
+				{ "year" : 2005, "value" : 3547},
+				{ "year" : 2006, "value" : 5744},
+				{ "year" : 2007, "value" : 3446},
+				{ "year" : 2008, "value" : 3717},
+				{ "year" : 2009, "value" : 3802},
+				{ "year" : 2010, "value" : 3691},
+				{ "year" : 2011, "value" : 4188},
+				{ "year" : 2012, "value" : 3960},
+				{ "year" : 2013, "value" : 3280}
+			]
+		},
+		{"state" : "Kerala",
+			"Data" : [ { "year" : 2003, "value" : 0},
+				{ "year" : 2004, "value" : 570},
+				{ "year" : 2005, "value" : 667.1},
+				{ "year" : 2006, "value" : 629.9},
+				{ "year" : 2007, "value" : 631},
+				{ "year" : 2008, "value" : 528.5},
+				{ "year" : 2009, "value" : 590.3},
+				{ "year" : 2010, "value" : 598.3},
+				{ "year" : 2011, "value" : 523},
+				{ "year" : 2012, "value" : 570},
+				{ "year" : 2013, "value" : 530}
+			]
+		},
+		{"state" : "Tamil Nadu",
+			"Data" : [ { "year" : 2003, "value" : 0},
+				{ "year" : 2004, "value" : 3222.8},
+				{ "year" : 2005, "value" : 5062.2},
+				{ "year" : 2006, "value" : 5220},
+				{ "year" : 2007, "value" : 6610.6},
+				{ "year" : 2008, "value" : 5040.2},
+				{ "year" : 2009, "value" : 5182.7},
+				{ "year" : 2010, "value" : 5665.2},
+				{ "year" : 2011, "value" : 5792},
+				{ "year" : 2012, "value" : 7460},
+				{ "year" : 2013, "value" : 4400}
+			]
+		}
+	]
+}
