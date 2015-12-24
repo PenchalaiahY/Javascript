@@ -1,31 +1,118 @@
 [
-	{ "grainName" : "Kharif", "prodYear2013" : 128.07},
-	{ "grainName" : "Rice", "prodYear2013" : 105.24},
-	{ "grainName" : "Rice Kharif", "prodYear2013" : 92.37},
-	{ "grainName" : "Rabi", "prodYear2013" : 129.06},
-	{ "grainName" : "Rice Rabi", "prodYear2013" : 12.87},
-	{ "grainName" : "Jowar", "prodYear2013" : 5.28},
-	{ "grainName" : "Jowar Kharif", "prodYear2013" : 2.84},
-	{ "grainName" : "Jowar Rabi", "prodYear2013" : 2.44},
-	{ "grainName" : "Bajra Kharif", "prodYear2013" : 8.74},
-	{ "grainName" : "Wheat Rabi", "prodYear2013" : 93.51},
-	{ "grainName" : "Maize Kharif", "prodYear2013" : 16.19},
-	{ "grainName" : "Maize", "prodYear2013" : 22.26},
-	{ "grainName" : "Ragi Kharif", "prodYear2013" : 1.57},
-	{ "grainName" : "Maize Rabi", "prodYear2013" : 6.06},
-	{ "grainName" : "Barley Rabi", "prodYear2013" : 1.75},
-	{ "grainName" : "Small Millets Kharif", "prodYear2013" : 0.44},
-	{ "grainName" : "Coarse Cereals Kharif", "prodYear2013" : 29.79},
-	{ "grainName" : "Coarse Cereals", "prodYear2013" : 40.04},
-	{ "grainName" : "Cereals", "prodYear2013" : 238.79},
-	{ "grainName" : "Coarse Cereals Rabi", "prodYear2013" : 10.25},
-	{ "grainName" : "Cereals Rabi", "prodYear2013" : 116.63},
-	{ "grainName" : "Cereals Kharif", "prodYear2013" : 122.16},
-	{ "grainName" : "Other Kharif Pulses Kharif", "prodYear2013" : 0.62},
-	{ "grainName" : "Tur Kharif", "prodYear2013" : 3.02},
-	{ "grainName" : "Other Kharif Pulses Rabi", "prodYear2013" : 2.73},
-	{ "grainName" : "Gram Rabi", "prodYear2013" : 8.83},
-	{ "grainName" : "Pulses", "prodYear2013" : 18.34},
-	{ "grainName" : "Pulses Kharif", "prodYear2013" : 5.91},
-	{ "grainName" : "Pulses Rabi", "prodYear2013" : 12.43}
+	{
+	"grainName": "Kharif",
+	"prodYear2013": "128.07"
+},
+	{
+	"grainName": "Rabi",
+	"prodYear2013": "129.06"
+},
+	{
+	"grainName": "Rice",
+	"prodYear2013": "105.24"
+},
+	{
+	"grainName": "Rice Kharif",
+	"prodYear2013": "92.37"
+},
+	{
+	"grainName": "Rice Rabi",
+	"prodYear2013": "12.87"
+},
+	{
+	"grainName": "Wheat Rabi",
+	"prodYear2013": "93.51"
+},
+	{
+	"grainName": "Jowar",
+	"prodYear2013": "5.28"
+},
+	{
+	"grainName": "Jowar Kharif",
+	"prodYear2013": "2.84"
+},
+	{
+	"grainName": "Jowar Rabi",
+	"prodYear2013": "2.44"
+},
+	{
+	"grainName": "Bajra Kharif",
+	"prodYear2013": "8.74"
+},
+	{
+	"grainName": "Maize",
+	"prodYear2013": "22.26"
+},
+	{
+	"grainName": "Maize Kharif",
+	"prodYear2013": "16.19"
+},
+	{
+	"grainName": "Maize Rabi",
+	"prodYear2013": "6.06"
+},
+	{
+	"grainName": "Ragi Kharif",
+	"prodYear2013": "1.57"
+},
+	{
+	"grainName": "Small Millets Kharif",
+	"prodYear2013": "0.44"
+},
+	{
+	"grainName": "Barley Rabi",
+	"prodYear2013": "1.75"
+},
+	{
+	"grainName": "Coarse Cereals",
+	"prodYear2013": "40.04"
+},
+	{
+	"grainName": "Coarse Cereals Kharif",
+	"prodYear2013": "29.79"
+},
+	{
+	"grainName": "Coarse Cereals Rabi",
+	"prodYear2013": "10.25"
+},
+	{
+	"grainName": "Cereals",
+	"prodYear2013": "238.79"
+},
+	{
+	"grainName": "Cereals Kharif",
+	"prodYear2013": "122.16"
+},
+	{
+	"grainName": "Cereals Rabi",
+	"prodYear2013": "116.63"
+},
+	{
+	"grainName": "Tur Kharif",
+	"prodYear2013": "3.02"
+},
+	{
+	"grainName": "Other Kharif Pulses Kharif",
+	"prodYear2013": "0.62"
+},
+	{
+	"grainName": "Gram Rabi",
+	"prodYear2013": "8.83"
+},
+	{
+	"grainName": "Other Kharif Pulses Rabi",
+	"prodYear2013": "2.73"
+},
+	{
+	"grainName": "Pulses",
+	"prodYear2013": "18.34"
+},
+	{
+	"grainName": "Pulses Kharif",
+	"prodYear2013": "5.91"
+},
+	{
+	"grainName": "Pulses Rabi",
+	"prodYear2013": "12.43"
+}
 ]

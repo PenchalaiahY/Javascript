@@ -1,15 +1,49 @@
 {
-	"grainName" : "Commercial Crop",
-	"aggregateValue" : [ { "year" : 2003, "value" : 0},
-		{ "year" : 2004, "value" : 0},
-		{ "year" : 2005, "value" : 274.0616},
-		{ "year" : 2006, "value" : 321.3505},
-		{ "year" : 2007, "value" : 400.6975},
-		{ "year" : 2008, "value" : 396.493},
-		{ "year" : 2009, "value" : 328.0361},
-		{ "year" : 2010, "value" : 339.95822400000003},
-		{ "year" : 2011, "value" : 396.62188319999996},
-		{ "year" : 2012, "value" : 419.033816},
-		{ "year" : 2013, "value" : 397.28}
+	"grainName": "Commercial Crop",
+	"aggregateValue": [
+		{
+			"year": 2003,
+			"value": 0
+		},
+		{
+			"year": 2004,
+			"value": 0
+		},
+		{
+			"year": 2005,
+			"value": 274.0616
+		},
+		{
+			"year": 2006,
+			"value": 321.3505
+		},
+		{
+			"year": 2007,
+			"value": 400.6975
+		},
+		{
+			"year": 2008,
+			"value": 396.493
+		},
+		{
+			"year": 2009,
+			"value": 328.0361
+		},
+		{
+			"year": 2010,
+			"value": 339.95822400000003
+		},
+		{
+			"year": 2011,
+			"value": 396.62188319999996
+		},
+		{
+			"year": 2012,
+			"value": 419.033816
+		},
+		{
+			"year": 2013,
+			"value": 397.28
+		}
 	]
 }
