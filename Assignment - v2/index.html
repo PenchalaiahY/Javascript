@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>India's Agricultural Production</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="lib/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1><strong>Agriculture production from year 2003 to 2014</strong></h1>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#fgProd13">Food Grain Production on 2013</a></li>
+        <li><a data-toggle="tab" href="#osProd13">Oil Seed Production on 2013</a></li>
+        <li><a data-toggle="tab" href="#ccaProdyear">Commercial Crops Aggregate Production by Year</a></li>
+        <li><a data-toggle="tab" href="#scfs">Stacked Chart for four States Rice Production</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="fgProd13" class="tab-pane active">
+          <h2>Food Grain Production on 2013</h2>
+        </div>
+        <div id="osProd13" class="tab-pane">
+          <h2>Oil Seed Production on 2013</h2>
+        </div>
+        <div id="ccaProdyear" class="tab-pane">
+          <h2>Commercial Crops Aggregate Production by Year</h2>
+        </div>
+        <div id="scfs" class="tab-pane">
+          <h2>Stacked Chart for four States Rice Production</h2>
+        </div>
+      </div>
+    </main>
+
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+    <script>window.jQuery || document.write('<script src="lib/jquery-1.11.3.min.js"><\/script>')</script>
+
+    <!-- Bootstrap JS -->
+    <script src="lib/Bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- d3 JS -->
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+    <!-- d3 Tip -->
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/jsontobarchart.js"></script>
+
+  </body>
+</html>

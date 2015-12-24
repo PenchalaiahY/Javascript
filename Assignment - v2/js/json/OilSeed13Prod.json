@@ -1,0 +1,62 @@
+[
+	{
+	"grainName": "Kharif",
+	"prodYear2013": "20.791"
+},
+	{
+	"grainName": "Groundnut Kharif",
+	"prodYear2013": "3.187"
+},
+	{
+	"grainName": "Rabi",
+	"prodYear2013": "10.152"
+},
+	{
+	"grainName": "Groundnut",
+	"prodYear2013": "4.695"
+},
+	{
+	"grainName": "Groundnut Rabi",
+	"prodYear2013": "1.508"
+},
+	{
+	"grainName": "Castorseed Kharif",
+	"prodYear2013": "1.964"
+},
+	{
+	"grainName": "Sesamun Kharif",
+	"prodYear2013": "0.685"
+},
+	{
+	"grainName": "Nigerseed Kharif",
+	"prodYear2013": "0.102"
+},
+	{
+	"grainName": "Rapeseed and Mustard Rabi",
+	"prodYear2013": "8.029"
+},
+	{
+	"grainName": "Linseed Rabi",
+	"prodYear2013": "0.149"
+},
+	{
+	"grainName": "Safflower Rabi",
+	"prodYear2013": "0.109"
+},
+	{
+	"grainName": "Sunflower",
+	"prodYear2013": "0.544"
+},
+	{
+	"grainName": "Sunflower Kharif",
+	"prodYear2013": "0.187"
+},
+	{
+	"grainName": "Sunflower Rabi",
+	"prodYear2013": "0.357"
+},
+	{
+	"grainName": "Soyabean Kharif",
+	"prodYear2013": "14.666"
+}
+]
