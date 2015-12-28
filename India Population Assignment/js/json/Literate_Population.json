@@ -1,0 +1,401 @@
+[
+[
+	{
+		"label": "7",
+		"population": 22818573
+	},
+	{
+		"label": "8",
+		"population": 29011421
+	},
+	{
+		"label": "9",
+		"population": 26565571
+	},
+	{
+		"label": "10",
+		"population": 34430703
+	},
+	{
+		"label": "11",
+		"population": 28806963
+	},
+	{
+		"label": "12",
+		"population": 32348816
+	},
+	{
+		"label": "13",
+		"population": 28387474
+	},
+	{
+		"label": "14",
+		"population": 29171219
+	},
+	{
+		"label": "15",
+		"population": 29325198
+	},
+	{
+		"label": "16",
+		"population": 27686321
+	},
+	{
+		"label": "17",
+		"population": 23886851
+	},
+	{
+		"label": "18",
+		"population": 30218875
+	},
+	{
+		"label": "19",
+		"population": 22621208
+	},
+	{
+		"label": "20-24",
+		"population": 114128000
+	},
+	{
+		"label": "25-29",
+		"population": 95741848
+	},
+	{
+		"label": "30-34",
+		"population": 77036519
+	},
+	{
+		"label": "35-39",
+		"population": 68243458
+	},
+	{
+		"label": "40-44",
+		"population": 53708523
+	},
+	{
+		"label": "45-49",
+		"population": 43357916
+	},
+	{
+		"label": "50-54",
+		"population": 32553475
+	},
+	{
+		"label": "55-59",
+		"population": 24557099
+	},
+	{
+		"label": "60-64",
+		"population": 20160842
+	},
+	{
+		"label": "65-69",
+		"population": 13193461
+	},
+	{
+		"label": "70-74",
+		"population": 8560705
+	},
+	{
+		"label": "75-79",
+		"population": 4263104
+	},
+	{
+		"label": "80+",
+		"population": 4920189
+	},
+	{
+		"label": "Age not stated",
+		"population": 3459950
+	}
+],
+[
+	{
+		"label": "State - JAMMU & KASHMIR",
+		"population": {
+			"male": 426555,
+			"female": 265929
+		}
+	},
+	{
+		"label": "State - HIMACHAL PRADESH",
+		"population": {
+			"male": 293449,
+			"female": 223652
+		}
+	},
+	{
+		"label": "State - PUNJAB",
+		"population": {
+			"male": 960456,
+			"female": 959213
+		}
+	},
+	{
+		"label": "State - CHANDIGARH",
+		"population": {
+			"male": 111494,
+			"female": 94542
+		}
+	},
+	{
+		"label": "State - UTTARAKHAND",
+		"population": {
+			"male": 568963,
+			"female": 433434
+		}
+	},
+	{
+		"label": "State - HARYANA",
+		"population": {
+			"male": 1183849,
+			"female": 810751
+		}
+	},
+	{
+		"label": "State - NCT OF DELHI",
+		"population": {
+			"male": 1636077,
+			"female": 1282115
+		}
+	},
+	{
+		"label": "State - RAJASTHAN",
+		"population": {
+			"male": 2461922,
+			"female": 1064619
+		}
+	},
+	{
+		"label": "State - UTTAR PRADESH",
+		"population": {
+			"male": 7086446,
+			"female": 3811759
+		}
+	},
+	{
+		"label": "State - BIHAR",
+		"population": {
+			"male": 2471458,
+			"female": 764190
+		}
+	},
+	{
+		"label": "State - SIKKIM",
+		"population": {
+			"male": 24812,
+			"female": 18036
+		}
+	},
+	{
+		"label": "State - ARUNACHAL PRADESH",
+		"population": {
+			"male": 58823,
+			"female": 28114
+		}
+	},
+	{
+		"label": "State - NAGALAND",
+		"population": {
+			"male": 96513,
+			"female": 68531
+		}
+	},
+	{
+		"label": "State - MANIPUR",
+		"population": {
+			"male": 178447,
+			"female": 115688
+		}
+	},
+	{
+		"label": "State - MIZORAM",
+		"population": {
+			"male": 56437,
+			"female": 38959
+		}
+	},
+	{
+		"label": "State - TRIPURA",
+		"population": {
+			"male": 107556,
+			"female": 58240
+		}
+	},
+	{
+		"label": "State - MEGHALAYA",
+		"population": {
+			"male": 77020,
+			"female": 77942
+		}
+	},
+	{
+		"label": "State - ASSAM",
+		"population": {
+			"male": 718327,
+			"female": 411992
+		}
+	},
+	{
+		"label": "State - WEST BENGAL",
+		"population": {
+			"male": 3463977,
+			"female": 1891297
+		}
+	},
+	{
+		"label": "State - JHARKHAND",
+		"population": {
+			"male": 1039975,
+			"female": 492195
+		}
+	},
+	{
+		"label": "State - ODISHA",
+		"population": {
+			"male": 1303987,
+			"female": 661902
+		}
+	},
+	{
+		"label": "State - CHHATTISGARH",
+		"population": {
+			"male": 799269,
+			"female": 417319
+		}
+	},
+	{
+		"label": "State - MADHYA PRADESH",
+		"population": {
+			"male": 2311433,
+			"female": 1279956
+		}
+	},
+	{
+		"label": "State - GUJARAT",
+		"population": {
+			"male": 2083498,
+			"female": 1388297
+		}
+	},
+	{
+		"label": "State - DAMAN & DIU",
+		"population": {
+			"male": 8774,
+			"female": 4575
+		}
+	},
+	{
+		"label": "State - DADRA & NAGAR HAVELI",
+		"population": {
+			"male": 13880,
+			"female": 7899
+		}
+	},
+	{
+		"label": "State - MAHARASHTRA",
+		"population": {
+			"male": 5730823,
+			"female": 3774694
+		}
+	},
+	{
+		"label": "State - ANDHRA PRADESH",
+		"population": {
+			"male": 4125374,
+			"female": 2182506
+		}
+	},
+	{
+		"label": "State - KARNATAKA",
+		"population": {
+			"male": 2799580,
+			"female": 1696871
+		}
+	},
+	{
+		"label": "State - GOA",
+		"population": {
+			"male": 77010,
+			"female": 75121
+		}
+	},
+	{
+		"label": "State - LAKSHADWEEP",
+		"population": {
+			"male": 2682,
+			"female": 1606
+		}
+	},
+	{
+		"label": "State - KERALA",
+		"population": {
+			"male": 1187364,
+			"female": 1474710
+		}
+	},
+	{
+		"label": "State - TAMIL NADU",
+		"population": {
+			"male": 3495384,
+			"female": 2577695
+		}
+	},
+	{
+		"label": "State - PUDUCHERRY",
+		"population": {
+			"male": 87072,
+			"female": 67712
+		}
+	},
+	{
+		"label": "State - ANDAMAN & NICOBAR ISLANDS",
+		"population": {
+			"male": 13832,
+			"female": 10748
+		}
+	}
+],
+[
+	{
+		"label": "Literate without educational level",
+		"population": 42917688
+	},
+	{
+		"label": "Below Primary",
+		"population": 187922838
+	},
+	{
+		"label": "Primary",
+		"population": 230286790
+	},
+	{
+		"label": "Middle",
+		"population": 165085953
+	},
+	{
+		"label": "Matric/Secondary",
+		"population": 123969998
+	},
+	{
+		"label": "Higher secondary/Intermediate/Pre-University/Senior secondary",
+		"population": 90159789
+	},
+	{
+		"label": "Non-technical diploma or certificate not equal to degree",
+		"population": 1162928
+	},
+	{
+		"label": "Technical diploma or certificate not equal to degree",
+		"population": 8290083
+	},
+	{
+		"label": "Graduate & above",
+		"population": 75595327
+	},
+	{
+		"label": "Unclassified",
+		"population": 3772888
+	}
+]
+]

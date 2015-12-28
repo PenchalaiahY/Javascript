@@ -3,6 +3,7 @@ var censusByCasteFileNames = ["../csv/India2011.csv",
                             "../csv/IndiaST2011.csv"];
 
 var Census = {
+  jsonFileName : "json/Literate_Population.json",
   AgeWiseLiteratePopulation : [],
   GraduatePopulationByStateAndGender : [],
   EducationCategoryPopulation : [],
@@ -18,7 +19,12 @@ var Census = {
       this.ageArray["ageG" + j] = i;
     this.ageArray["ageGAg"] = i;
   },
-
+  initializeEduCat : function(lineArr) {
+    for(var i=15,j=0;i<43 && j<10;i=i+3,j++) {
+      this.EducationCategoryPopulation[j] = { label : lineArr[i].split(' - ')[1].trim(), population : 0 };
+      //console.log(j + " " + this.EducationCategoryPopulation[j].label + " " + this.EducationCategoryPopulation[j].population);
+    }
+  },
   validateConstrains : function(total,ageGroup) {
     for(var i=0,ageLen=this.omitAges.length;i<ageLen;i++) {
       if(ageGroup === this.omitAges[i])
@@ -40,12 +46,38 @@ var Census = {
     else {
       this.AgeWiseLiteratePopulation[ageIndex].population += parseInt(lineArr[12]);
     }
+    //console.log(this.AgeWiseLiteratePopulation[ageIndex].label + " " + this.AgeWiseLiteratePopulation[ageIndex].population);
 
     //Graduates Population By State with Gender comparison
+    var stateCodeInd = parseInt(lineArr[1])-1;
+    if(this.GraduatePopulationByStateAndGender[stateCodeInd] == undefined) {
+      this.GraduatePopulationByStateAndGender[stateCodeInd] = { label : lineArr[3], population : { male : parseInt(lineArr[40]), female : parseInt(lineArr[41])}};
+    }
+    else {
+      this.GraduatePopulationByStateAndGender[stateCodeInd].population.male += parseInt(lineArr[40]);
+      this.GraduatePopulationByStateAndGender[stateCodeInd].population.female += parseInt(lineArr[41]);
+    }
 
-    
     //Education Category Wise Population
+    for(var i=15,j=0;i<43&&j<10;i=i+3,j++) {
+      this.EducationCategoryPopulation[j].population += parseInt(lineArr[i]);
+    }
+  },
 
+  toString : function() {
+    var outStr = "[\n";
+    outStr += JSON.stringify(this.AgeWiseLiteratePopulation,null,'\t') + ",\n";
+    outStr += JSON.stringify(this.GraduatePopulationByStateAndGender,null,'\t') + ",\n";
+    outStr += JSON.stringify(this.EducationCategoryPopulation,null,'\t') + "\n]";
+    return outStr;
+  },
+
+  writeData : function(json) {
+    fs.appendFile(this.jsonFileName,json,function(err) {
+      if(err)
+        console.log(err);
+      //console.log('The "data to append" was appended to file!');
+    });
   }
 };
 
@@ -73,8 +105,11 @@ function CSVtoArray(text) {
 
 var fs = require('fs'),
   readline = require('readline'),
-  ignoredFirstLine=[false,false,false];
+  ignoredFirstLine=[false,false,false],
+  isThreeFilesClose=0;
+
 Census.initializeAgeArry();
+
 for(var i=0;i<censusByCasteFileNames.length;i++){
   (function(index) {
     var lineReader = readline.createInterface({
@@ -86,11 +121,15 @@ for(var i=0;i<censusByCasteFileNames.length;i++){
         var lineArr = CSVtoArray(line); // converting line to array
         if(ignoredFirstLine[index] && Census.validateConstrains(lineArr[4],lineArr[5])) {
           Census.processData(lineArr);
+        } else if (!ignoredFirstLine[index] && Census.EducationCategoryPopulation[0]===undefined) {
+          Census.initializeEduCat(lineArr);
         }
         ignoredFirstLine[index]=true;
     });
 
     lineReader.on('close',function() {
+      if(++isThreeFilesClose == 3)
+        Census.writeData(Census.toString());
       lineReader.close();
     });
   })(i);

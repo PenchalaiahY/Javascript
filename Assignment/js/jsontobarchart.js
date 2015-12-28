@@ -102,7 +102,7 @@ var drawStackedChart = function(g,data) {
         .attr("fill",stackedColors[i])
         .attr("y",function(d,j) {
           if(i==0)
-            stackChartStartArr[j]=height-padding.bottom-yscale(Math.ceil(d.value));
+            stackChartStartArr[j]=vHeight-padding.bottom-yscale(Math.ceil(d.value));
           else {
             stackChartStartArr[j]-=yscale(Math.ceil(d.value));
           }
